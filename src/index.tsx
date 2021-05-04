@@ -1,9 +1,9 @@
 import ReactDOM from 'react-dom';
-
-const App = () => {
-    return (
-        <div>Hey!</div>
-    )
-}
+import App from './components/App';
+// const App = () => {
+//     return (
+//         <div>Hey!</div>
+//     )
+// }
 
 ReactDOM.render(<App/>, document.querySelector('#root'));
